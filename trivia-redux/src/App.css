@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* login page */
+.main-login {
+  align-items: center;
+  background: #201b2c;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.left-login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 50vw;
+}
+
+.App-logo {
+  height: auto;
+  width: 500px;
+}
+
+.right-login {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 50vw;
+}
+
+.card-login {
+  align-items: center;
+  background: #2f2841;
+  border-radius: 20px;
+  box-shadow: 0.1px 10px 40px #00000056;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 35px;
+  width: 60%;
+}
+
+.card-login > h1 {
+  color: #0f8;
+  font-weight: 800;
+  margin: 0;
+}
+
+.card-login > label {
+  align-items: flex-start;
+  color: #f0ffffde;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.card-login > label > input {
+  background: #514869;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0.1px 10px 40px #00000056;
+  box-sizing: border-box;
+  color: #f0ffffde;
+  font-size: 13pt;
+  margin: 10px 0.1px;
+  outline: none;
+  padding: 15px;
+  width: 300px;
+}
+
+.card-login > button {
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: wrap column;
+  font-size: 18px;
+  justify-content: center;
+  margin: 10px;
+  padding: 16px 0.1px;
+  width: 300px;
+}
+
+/* login page finalizado */
+
+/* game page iniciado */
+.header > h1 {
+  font-size: 25px;
+}
+
+.header > h2 {
+  padding: 28px;
+  text-align: center;
+}
+
+.header > img, span {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+body {
+  background-color: #201b2c;
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.default {
+  border: 3px solid black;
+}
+
+.correct {
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.incorrect {
+  border: 3px solid red;
+}
+
+.questions {
+  font-size: 22px;
+}
+
+.questions > button {
+  margin-top: 10px;
+  size: 50px;
+}
+
+.questions-data {
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: wrap column;
+  font-size: 18px;
+  justify-content: center;
+  margin: auto;
+  padding: 16px 0.1px;
+  width: 300px;
+}
